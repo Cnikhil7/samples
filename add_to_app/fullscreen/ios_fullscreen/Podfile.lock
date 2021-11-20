@@ -4,11 +4,15 @@ PODS:
     - Flutter
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
+    - path_provider_ios
+  - path_provider_ios (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `../flutter_module/.ios/Flutter/engine`)
   - flutter_module (from `../flutter_module/.ios/Flutter`)
   - FlutterPluginRegistrant (from `../flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - path_provider_ios (from `../flutter_module/.ios/.symlinks/plugins/path_provider_ios/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
@@ -17,12 +21,15 @@ EXTERNAL SOURCES:
     :path: "../flutter_module/.ios/Flutter"
   FlutterPluginRegistrant:
     :path: "../flutter_module/.ios/Flutter/FlutterPluginRegistrant"
+  path_provider_ios:
+    :path: "../flutter_module/.ios/.symlinks/plugins/path_provider_ios/ios"
 
 SPEC CHECKSUMS:
   Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
   flutter_module: d1e1ff44505640bd9aa37f23f63380c646272be4
-  FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
+  FlutterPluginRegistrant: a889f1af93a8cc318fd257b5a9d9aa8ae6fb4878
+  path_provider_ios: 7d7ce634493af4477d156294792024ec3485acd5
 
 PODFILE CHECKSUM: 1f9809794b37c933b7cb40791d64724dc2376c54
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2
